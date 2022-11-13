@@ -1,0 +1,33 @@
+
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="roll_frames"
+version="1.0"
+displayName="Rolling I Frames"
+#logoFile="examplemod.png"
+credits="Daedalus for Combat Roll"
+authors="Petey"
+description='''
+    Adds i-frames to Combat Roll's rolls.
+'''
+[[dependencies.roll_frames]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.roll_frames]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.roll_frames]]
+    modId="combatroll"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

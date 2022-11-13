@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.petey.roll_frames.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "ServerPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "roll_frames.mixin.refmap.json"
+}
